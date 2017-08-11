@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--背景-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!---->
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+    <style name="CollapsingTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    <style name="CollapsingTextAppearance.Inverse" >
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+    <style name="TextAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="TextAppearance.Header">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/color_bg_top_red</item>
+    </style>
+
+    <style name="TextComponent"/>
+    <style name="TextComponent.ItemRow">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+</resources>
